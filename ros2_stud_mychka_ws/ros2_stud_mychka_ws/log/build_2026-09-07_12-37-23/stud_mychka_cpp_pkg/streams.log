@@ -1,0 +1,58 @@
+[0.078s] Invoking command in '/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ros/ros2_stud_mychka_ws/src/stud_mychka_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg
+[1.060s] -- The C compiler identification is GNU 13.3.0
+[1.659s] -- The CXX compiler identification is GNU 13.3.0
+[1.915s] -- Detecting C compiler ABI info
+[2.665s] -- Detecting C compiler ABI info - done
+[2.681s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.699s] -- Detecting C compile features
+[2.704s] -- Detecting C compile features - done
+[2.765s] -- Detecting CXX compiler ABI info
+[3.304s] -- Detecting CXX compiler ABI info - done
+[3.335s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.337s] -- Detecting CXX compile features
+[3.340s] -- Detecting CXX compile features - done
+[3.526s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.225s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.563s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[4.779s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.848s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.952s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.022s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.362s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.383s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.776s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.826s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.873s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.183s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[6.257s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.632s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.633s] -- Configured cppcheck include dirs: 
+[6.638s] -- Configured cppcheck exclude dirs and/or files: 
+[6.642s] -- Added test 'lint_cmake' to check CMake code style
+[6.646s] -- Added test 'uncrustify' to check C / C++ code style
+[6.646s] -- Configured uncrustify additional arguments: 
+[6.651s] -- Added test 'xmllint' to check XML markup files
+[6.664s] -- Configuring done (6.3s)
+[6.684s] -- Generating done (0.0s)
+[6.687s] -- Build files have been written to: /home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg
+[6.707s] Invoked command in '/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ros/ros2_stud_mychka_ws/src/stud_mychka_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg
+[6.709s] Invoking command in '/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg -- -j6 -l6
+[6.809s] Invoked command in '/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg -- -j6 -l6
+[6.838s] Invoking command in '/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg
+[6.867s] -- Install configuration: ""
+[6.867s] -- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/stud_mychka_cpp_pkg
+[6.867s] -- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/stud_mychka_cpp_pkg
+[6.874s] -- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/environment/ament_prefix_path.sh
+[6.874s] -- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/environment/ament_prefix_path.dsv
+[6.874s] -- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/environment/path.sh
+[6.874s] -- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/environment/path.dsv
+[6.874s] -- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/local_setup.bash
+[6.874s] -- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/local_setup.sh
+[6.879s] -- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/local_setup.zsh
+[6.881s] -- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/local_setup.dsv
+[6.882s] -- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/package.dsv
+[6.882s] -- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/ament_index/resource_index/packages/stud_mychka_cpp_pkg
+[6.882s] -- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/cmake/stud_mychka_cpp_pkgConfig.cmake
+[6.885s] -- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/cmake/stud_mychka_cpp_pkgConfig-version.cmake
+[6.886s] -- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/package.xml
+[6.888s] Invoked command in '/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg

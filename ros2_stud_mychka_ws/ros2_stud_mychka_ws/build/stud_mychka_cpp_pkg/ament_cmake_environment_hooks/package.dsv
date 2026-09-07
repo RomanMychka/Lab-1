@@ -1,0 +1,4 @@
+source;share/stud_mychka_cpp_pkg/local_setup.bash
+source;share/stud_mychka_cpp_pkg/local_setup.dsv
+source;share/stud_mychka_cpp_pkg/local_setup.sh
+source;share/stud_mychka_cpp_pkg/local_setup.zsh

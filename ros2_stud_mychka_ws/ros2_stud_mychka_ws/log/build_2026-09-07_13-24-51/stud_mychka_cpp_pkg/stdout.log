@@ -1,0 +1,24 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/stud_mychka_publisher.dir/src/student_publisher.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable stud_mychka_publisher[0m
+[100%] Built target stud_mychka_publisher
+-- Install configuration: ""
+-- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/lib/stud_mychka_cpp_pkg/stud_mychka_publisher
+-- Set non-toolchain portion of runtime path of "/home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/lib/stud_mychka_cpp_pkg/stud_mychka_publisher" to ""
+-- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/include
+-- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/include/stud_mychka_cpp_pkg
+-- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/include/stud_mychka_cpp_pkg/student_publisher.hpp
+-- Up-to-date: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/stud_mychka_cpp_pkg
+-- Up-to-date: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/stud_mychka_cpp_pkg
+-- Up-to-date: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/environment/path.sh
+-- Up-to-date: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/environment/path.dsv
+-- Up-to-date: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/local_setup.bash
+-- Up-to-date: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/local_setup.sh
+-- Up-to-date: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/local_setup.zsh
+-- Up-to-date: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/local_setup.dsv
+-- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/package.dsv
+-- Up-to-date: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/ament_index/resource_index/packages/stud_mychka_cpp_pkg
+-- Up-to-date: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/cmake/stud_mychka_cpp_pkgConfig.cmake
+-- Up-to-date: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/cmake/stud_mychka_cpp_pkgConfig-version.cmake
+-- Up-to-date: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/package.xml

@@ -1,0 +1,260 @@
+[0.000000] (-) TimerEvent: {}
+[0.003123] (-) JobUnselected: {'identifier': 'stud_mychka_py_pkg'}
+[0.003240] (stud_mychka_cpp_pkg) JobQueued: {'identifier': 'stud_mychka_cpp_pkg', 'dependencies': OrderedDict()}
+[0.003263] (stud_mychka_cpp_pkg) JobStarted: {'identifier': 'stud_mychka_cpp_pkg'}
+[0.027531] (stud_mychka_cpp_pkg) JobProgress: {'identifier': 'stud_mychka_cpp_pkg', 'progress': 'cmake'}
+[0.044737] (stud_mychka_cpp_pkg) JobProgress: {'identifier': 'stud_mychka_cpp_pkg', 'progress': 'build'}
+[0.047607] (stud_mychka_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg', '--', '-j6', '-l6'], 'cwd': '/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2274-6-ros-VirtualBox_TIME109472105', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ros', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ros', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1851', 'SYSTEMD_EXEC_PID': '2274', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '14112', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/ros/ros2_stud_mychka_ws/install:/home/ros/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ros', 'JOURNAL_STREAM': '10:12130', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ros', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ros-VirtualBox:@/tmp/.ICE-unix/2244,unix/ros-VirtualBox:/tmp/.ICE-unix/2244', 'INVOCATION_ID': '27711310e1254cd596916e681a693892', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg:/home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:4e3313eb-7b09-46a7-bfd3-97e065fab717', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[0.100283] (-) TimerEvent: {}
+[0.207971] (-) TimerEvent: {}
+[0.308634] (-) TimerEvent: {}
+[0.410797] (-) TimerEvent: {}
+[0.516952] (-) TimerEvent: {}
+[0.531125] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/stud_mychka_publisher.dir/src/student_publisher.cpp.o\x1b[0m\n'}
+[0.621019] (-) TimerEvent: {}
+[0.724011] (-) TimerEvent: {}
+[0.831561] (-) TimerEvent: {}
+[0.934565] (-) TimerEvent: {}
+[1.037959] (-) TimerEvent: {}
+[1.138764] (-) TimerEvent: {}
+[1.243151] (-) TimerEvent: {}
+[1.407144] (-) TimerEvent: {}
+[1.509646] (-) TimerEvent: {}
+[1.626132] (-) TimerEvent: {}
+[1.742908] (-) TimerEvent: {}
+[1.848297] (-) TimerEvent: {}
+[1.949266] (-) TimerEvent: {}
+[2.059781] (-) TimerEvent: {}
+[2.214554] (-) TimerEvent: {}
+[2.354354] (-) TimerEvent: {}
+[2.463355] (-) TimerEvent: {}
+[2.609415] (-) TimerEvent: {}
+[2.763708] (-) TimerEvent: {}
+[2.990433] (-) TimerEvent: {}
+[3.107448] (-) TimerEvent: {}
+[3.255113] (-) TimerEvent: {}
+[3.443899] (-) TimerEvent: {}
+[3.545388] (-) TimerEvent: {}
+[3.659350] (-) TimerEvent: {}
+[3.798581] (-) TimerEvent: {}
+[3.924151] (-) TimerEvent: {}
+[4.033791] (-) TimerEvent: {}
+[4.169501] (-) TimerEvent: {}
+[4.285786] (-) TimerEvent: {}
+[4.395116] (-) TimerEvent: {}
+[4.505626] (-) TimerEvent: {}
+[4.615129] (-) TimerEvent: {}
+[4.737123] (-) TimerEvent: {}
+[4.873390] (-) TimerEvent: {}
+[5.063697] (-) TimerEvent: {}
+[5.168579] (-) TimerEvent: {}
+[5.281054] (-) TimerEvent: {}
+[5.443303] (-) TimerEvent: {}
+[5.554604] (-) TimerEvent: {}
+[5.701091] (-) TimerEvent: {}
+[5.830989] (-) TimerEvent: {}
+[5.949201] (-) TimerEvent: {}
+[6.075586] (-) TimerEvent: {}
+[6.181774] (-) TimerEvent: {}
+[6.311583] (-) TimerEvent: {}
+[6.459419] (-) TimerEvent: {}
+[6.572550] (-) TimerEvent: {}
+[6.695042] (-) TimerEvent: {}
+[6.808530] (-) TimerEvent: {}
+[6.927616] (-) TimerEvent: {}
+[7.118188] (-) TimerEvent: {}
+[7.262300] (-) TimerEvent: {}
+[7.370608] (-) TimerEvent: {}
+[7.474037] (-) TimerEvent: {}
+[7.577406] (-) TimerEvent: {}
+[7.687068] (-) TimerEvent: {}
+[7.793561] (-) TimerEvent: {}
+[7.898243] (-) TimerEvent: {}
+[7.999338] (-) TimerEvent: {}
+[8.106651] (-) TimerEvent: {}
+[8.209415] (-) TimerEvent: {}
+[8.320168] (-) TimerEvent: {}
+[8.422868] (-) TimerEvent: {}
+[8.524868] (-) TimerEvent: {}
+[8.629297] (-) TimerEvent: {}
+[8.731514] (-) TimerEvent: {}
+[8.839018] (-) TimerEvent: {}
+[8.978873] (-) TimerEvent: {}
+[9.086736] (-) TimerEvent: {}
+[9.196474] (-) TimerEvent: {}
+[9.298036] (-) TimerEvent: {}
+[9.400796] (-) TimerEvent: {}
+[9.502456] (-) TimerEvent: {}
+[9.643454] (-) TimerEvent: {}
+[9.750258] (-) TimerEvent: {}
+[9.867905] (-) TimerEvent: {}
+[9.996014] (-) TimerEvent: {}
+[10.117245] (-) TimerEvent: {}
+[10.228603] (-) TimerEvent: {}
+[10.362601] (-) TimerEvent: {}
+[10.465288] (-) TimerEvent: {}
+[10.566706] (-) TimerEvent: {}
+[10.668166] (-) TimerEvent: {}
+[10.770701] (-) TimerEvent: {}
+[10.876642] (-) TimerEvent: {}
+[10.979109] (-) TimerEvent: {}
+[11.080767] (-) TimerEvent: {}
+[11.185216] (-) TimerEvent: {}
+[11.289295] (-) TimerEvent: {}
+[11.414006] (-) TimerEvent: {}
+[11.518328] (-) TimerEvent: {}
+[11.620351] (-) TimerEvent: {}
+[11.736217] (-) TimerEvent: {}
+[11.855076] (-) TimerEvent: {}
+[11.956101] (-) TimerEvent: {}
+[12.056917] (-) TimerEvent: {}
+[12.158394] (-) TimerEvent: {}
+[12.260029] (-) TimerEvent: {}
+[12.361486] (-) TimerEvent: {}
+[12.474408] (-) TimerEvent: {}
+[12.591415] (-) TimerEvent: {}
+[12.716533] (-) TimerEvent: {}
+[12.844735] (-) TimerEvent: {}
+[12.967760] (-) TimerEvent: {}
+[13.131262] (-) TimerEvent: {}
+[13.315429] (-) TimerEvent: {}
+[13.417757] (-) TimerEvent: {}
+[13.636518] (-) TimerEvent: {}
+[13.751990] (-) TimerEvent: {}
+[13.883299] (-) TimerEvent: {}
+[14.010759] (-) TimerEvent: {}
+[14.188875] (-) TimerEvent: {}
+[14.297533] (-) TimerEvent: {}
+[14.458772] (-) TimerEvent: {}
+[14.575846] (-) TimerEvent: {}
+[14.695411] (-) TimerEvent: {}
+[14.814092] (-) TimerEvent: {}
+[14.921393] (-) TimerEvent: {}
+[15.032942] (-) TimerEvent: {}
+[15.142958] (-) TimerEvent: {}
+[15.245898] (-) TimerEvent: {}
+[15.346896] (-) TimerEvent: {}
+[15.447801] (-) TimerEvent: {}
+[15.551704] (-) TimerEvent: {}
+[15.652948] (-) TimerEvent: {}
+[15.757947] (-) TimerEvent: {}
+[15.859994] (-) TimerEvent: {}
+[15.964854] (-) TimerEvent: {}
+[16.066195] (-) TimerEvent: {}
+[16.169833] (-) TimerEvent: {}
+[16.272302] (-) TimerEvent: {}
+[16.382156] (-) TimerEvent: {}
+[16.488210] (-) TimerEvent: {}
+[16.601243] (-) TimerEvent: {}
+[16.703684] (-) TimerEvent: {}
+[16.817321] (-) TimerEvent: {}
+[16.920015] (-) TimerEvent: {}
+[17.023421] (-) TimerEvent: {}
+[17.135254] (-) TimerEvent: {}
+[17.248344] (-) TimerEvent: {}
+[17.352343] (-) TimerEvent: {}
+[17.459716] (-) TimerEvent: {}
+[17.569790] (-) TimerEvent: {}
+[17.680102] (-) TimerEvent: {}
+[17.781835] (-) TimerEvent: {}
+[17.890401] (-) TimerEvent: {}
+[17.996668] (-) TimerEvent: {}
+[18.097566] (-) TimerEvent: {}
+[18.199369] (-) TimerEvent: {}
+[18.323787] (-) TimerEvent: {}
+[18.424404] (-) TimerEvent: {}
+[18.525934] (-) TimerEvent: {}
+[18.629468] (-) TimerEvent: {}
+[18.735038] (-) TimerEvent: {}
+[18.836701] (-) TimerEvent: {}
+[18.943239] (-) TimerEvent: {}
+[19.044448] (-) TimerEvent: {}
+[19.146303] (-) TimerEvent: {}
+[19.248413] (-) TimerEvent: {}
+[19.349697] (-) TimerEvent: {}
+[19.453292] (-) TimerEvent: {}
+[19.556627] (-) TimerEvent: {}
+[19.660036] (-) TimerEvent: {}
+[19.761849] (-) TimerEvent: {}
+[19.881869] (-) TimerEvent: {}
+[19.986522] (-) TimerEvent: {}
+[20.170301] (-) TimerEvent: {}
+[20.274490] (-) TimerEvent: {}
+[20.384020] (-) TimerEvent: {}
+[20.494368] (-) TimerEvent: {}
+[20.597787] (-) TimerEvent: {}
+[20.701780] (-) TimerEvent: {}
+[20.805302] (-) TimerEvent: {}
+[20.918835] (-) TimerEvent: {}
+[21.020426] (-) TimerEvent: {}
+[21.125900] (-) TimerEvent: {}
+[21.228781] (-) TimerEvent: {}
+[21.334576] (-) TimerEvent: {}
+[21.452589] (-) TimerEvent: {}
+[21.564693] (-) TimerEvent: {}
+[21.716301] (-) TimerEvent: {}
+[21.842557] (-) TimerEvent: {}
+[21.943623] (-) TimerEvent: {}
+[22.056667] (-) TimerEvent: {}
+[22.157439] (-) TimerEvent: {}
+[22.258601] (-) TimerEvent: {}
+[22.370689] (-) TimerEvent: {}
+[22.478386] (-) TimerEvent: {}
+[22.583525] (-) TimerEvent: {}
+[22.698299] (-) TimerEvent: {}
+[22.803673] (-) TimerEvent: {}
+[22.963090] (-) TimerEvent: {}
+[23.069608] (-) TimerEvent: {}
+[23.204052] (-) TimerEvent: {}
+[23.337103] (-) TimerEvent: {}
+[23.437779] (-) TimerEvent: {}
+[23.539018] (-) TimerEvent: {}
+[23.640081] (-) TimerEvent: {}
+[23.740998] (-) TimerEvent: {}
+[23.842987] (-) TimerEvent: {}
+[23.944755] (-) TimerEvent: {}
+[24.045413] (-) TimerEvent: {}
+[24.146251] (-) TimerEvent: {}
+[24.248545] (-) TimerEvent: {}
+[24.353185] (-) TimerEvent: {}
+[24.456840] (-) TimerEvent: {}
+[24.560722] (-) TimerEvent: {}
+[24.715605] (-) TimerEvent: {}
+[24.797608] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable stud_mychka_publisher\x1b[0m\n'}
+[24.818501] (-) TimerEvent: {}
+[24.928481] (-) TimerEvent: {}
+[25.037929] (-) TimerEvent: {}
+[25.200393] (-) TimerEvent: {}
+[25.393582] (-) TimerEvent: {}
+[25.526014] (-) TimerEvent: {}
+[25.551492] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'[100%] Built target stud_mychka_publisher\n'}
+[25.592691] (stud_mychka_cpp_pkg) CommandEnded: {'returncode': 0}
+[25.597417] (stud_mychka_cpp_pkg) JobProgress: {'identifier': 'stud_mychka_cpp_pkg', 'progress': 'install'}
+[25.618157] (stud_mychka_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg'], 'cwd': '/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2274-6-ros-VirtualBox_TIME109472105', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ros', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ros', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1851', 'SYSTEMD_EXEC_PID': '2274', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '14112', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/ros/ros2_stud_mychka_ws/install:/home/ros/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ros', 'JOURNAL_STREAM': '10:12130', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ros', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ros-VirtualBox:@/tmp/.ICE-unix/2244,unix/ros-VirtualBox:/tmp/.ICE-unix/2244', 'INVOCATION_ID': '27711310e1254cd596916e681a693892', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg:/home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:4e3313eb-7b09-46a7-bfd3-97e065fab717', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[25.627142] (-) TimerEvent: {}
+[25.631299] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.632813] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/lib/stud_mychka_cpp_pkg/stud_mychka_publisher\n'}
+[25.637232] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/lib/stud_mychka_cpp_pkg/stud_mychka_publisher" to ""\n'}
+[25.651980] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/include\n'}
+[25.693098] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/include/stud_mychka_cpp_pkg\n'}
+[25.693223] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/include/stud_mychka_cpp_pkg/student_publisher.hpp\n'}
+[25.693586] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/stud_mychka_cpp_pkg\n'}
+[25.694016] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/stud_mychka_cpp_pkg\n'}
+[25.694075] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[25.694135] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[25.694180] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/environment/path.sh\n'}
+[25.694224] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/environment/path.dsv\n'}
+[25.694270] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/local_setup.bash\n'}
+[25.694320] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/local_setup.sh\n'}
+[25.694365] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/local_setup.zsh\n'}
+[25.694407] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/local_setup.dsv\n'}
+[25.694450] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/package.dsv\n'}
+[25.694493] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/ament_index/resource_index/packages/stud_mychka_cpp_pkg\n'}
+[25.694535] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/cmake/stud_mychka_cpp_pkgConfig.cmake\n'}
+[25.697594] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/cmake/stud_mychka_cpp_pkgConfig-version.cmake\n'}
+[25.697676] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/package.xml\n'}
+[25.699525] (stud_mychka_cpp_pkg) CommandEnded: {'returncode': 0}
+[25.729048] (-) TimerEvent: {}
+[25.826863] (stud_mychka_cpp_pkg) JobEnded: {'identifier': 'stud_mychka_cpp_pkg', 'rc': 0}
+[25.831098] (-) TimerEvent: {}
+[25.831508] (-) EventReactorShutdown: {}

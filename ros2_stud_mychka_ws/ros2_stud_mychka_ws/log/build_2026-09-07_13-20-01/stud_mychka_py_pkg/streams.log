@@ -1,0 +1,37 @@
+[3.664s] Invoking command in '/home/ros/ros2_stud_mychka_ws/src/stud_mychka_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/stud_mychka_py_pkg build --build-base /home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/build install --record /home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/install.log --install-scripts $base/lib/stud_mychka_py_pkg --single-version-externally-managed install_data
+[4.112s] running egg_info
+[4.112s] creating ../../build/stud_mychka_py_pkg/stud_mychka_py_pkg.egg-info
+[4.134s] writing ../../build/stud_mychka_py_pkg/stud_mychka_py_pkg.egg-info/PKG-INFO
+[4.135s] writing dependency_links to ../../build/stud_mychka_py_pkg/stud_mychka_py_pkg.egg-info/dependency_links.txt
+[4.135s] writing entry points to ../../build/stud_mychka_py_pkg/stud_mychka_py_pkg.egg-info/entry_points.txt
+[4.135s] writing requirements to ../../build/stud_mychka_py_pkg/stud_mychka_py_pkg.egg-info/requires.txt
+[4.135s] writing top-level names to ../../build/stud_mychka_py_pkg/stud_mychka_py_pkg.egg-info/top_level.txt
+[4.136s] writing manifest file '../../build/stud_mychka_py_pkg/stud_mychka_py_pkg.egg-info/SOURCES.txt'
+[4.195s] reading manifest file '../../build/stud_mychka_py_pkg/stud_mychka_py_pkg.egg-info/SOURCES.txt'
+[4.195s] writing manifest file '../../build/stud_mychka_py_pkg/stud_mychka_py_pkg.egg-info/SOURCES.txt'
+[4.195s] running build
+[4.196s] running build_py
+[4.196s] creating /home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/build
+[4.196s] creating /home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/build/lib
+[4.198s] creating /home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/build/lib/stud_mychka_py_pkg
+[4.199s] copying stud_mychka_py_pkg/__init__.py -> /home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/build/lib/stud_mychka_py_pkg
+[4.199s] copying stud_mychka_py_pkg/student_subscriber.py -> /home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/build/lib/stud_mychka_py_pkg
+[4.199s] running install
+[4.211s] running install_lib
+[4.264s] creating /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/lib/python3.12/site-packages/stud_mychka_py_pkg
+[4.266s] copying /home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/build/lib/stud_mychka_py_pkg/__init__.py -> /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/lib/python3.12/site-packages/stud_mychka_py_pkg
+[4.266s] copying /home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/build/lib/stud_mychka_py_pkg/student_subscriber.py -> /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/lib/python3.12/site-packages/stud_mychka_py_pkg
+[4.274s] byte-compiling /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/lib/python3.12/site-packages/stud_mychka_py_pkg/__init__.py to __init__.cpython-312.pyc
+[4.274s] byte-compiling /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/lib/python3.12/site-packages/stud_mychka_py_pkg/student_subscriber.py to student_subscriber.cpython-312.pyc
+[4.275s] running install_data
+[4.275s] creating /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/share/ament_index
+[4.280s] creating /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/share/ament_index/resource_index
+[4.281s] creating /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/share/ament_index/resource_index/packages
+[4.281s] copying resource/stud_mychka_py_pkg -> /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/share/ament_index/resource_index/packages
+[4.282s] copying package.xml -> /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/share/stud_mychka_py_pkg
+[4.282s] running install_egg_info
+[4.312s] Copying ../../build/stud_mychka_py_pkg/stud_mychka_py_pkg.egg-info to /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/lib/python3.12/site-packages/stud_mychka_py_pkg-0.0.0-py3.12.egg-info
+[4.325s] running install_scripts
+[4.499s] Installing stud_mychka_subscriber script to /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/lib/stud_mychka_py_pkg
+[4.500s] writing list of installed files to '/home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/install.log'
+[4.576s] Invoked command in '/home/ros/ros2_stud_mychka_ws/src/stud_mychka_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/stud_mychka_py_pkg build --build-base /home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/build install --record /home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/install.log --install-scripts $base/lib/stud_mychka_py_pkg --single-version-externally-managed install_data

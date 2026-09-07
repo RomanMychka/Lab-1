@@ -1,0 +1,10 @@
+/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg/CMakeFiles/uninstall.dir
+/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg/CMakeFiles/stud_mychka_cpp_pkg_uninstall.dir
+/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg/CMakeFiles/stud_mychka_publisher.dir
+/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg/CMakeFiles/test.dir
+/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg/CMakeFiles/edit_cache.dir
+/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg/CMakeFiles/rebuild_cache.dir
+/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg/CMakeFiles/list_install_components.dir
+/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg/CMakeFiles/install.dir
+/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg/CMakeFiles/install/local.dir
+/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg/CMakeFiles/install/strip.dir

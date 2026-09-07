@@ -1,0 +1,3 @@
+[console_scripts]
+stud_mychka_subscriber = stud_mychka_py_pkg.student_subscriber:main
+stud_mychka_temperature_monitor = stud_mychka_py_pkg.temp_subscriber:main

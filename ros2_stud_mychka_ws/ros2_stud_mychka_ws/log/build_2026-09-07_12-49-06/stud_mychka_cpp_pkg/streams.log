@@ -1,0 +1,3 @@
+[0.082s] Invoking command in '/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg -- -j6 -l6
+[0.488s] [ 33%] [32mBuilding CXX object CMakeFiles/stud_mychka_publisher.dir/src/student_publisher.cpp.o[0m
+[0.488s] [ 66%] [32mBuilding CXX object CMakeFiles/stud_mychka_publisher.dir/src/main.cpp.o[0m

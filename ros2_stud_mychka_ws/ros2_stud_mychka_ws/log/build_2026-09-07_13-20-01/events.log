@@ -1,0 +1,85 @@
+[0.000000] (-) TimerEvent: {}
+[0.000224] (-) JobUnselected: {'identifier': 'stud_mychka_cpp_pkg'}
+[0.000263] (stud_mychka_py_pkg) JobQueued: {'identifier': 'stud_mychka_py_pkg', 'dependencies': OrderedDict()}
+[0.000283] (stud_mychka_py_pkg) JobStarted: {'identifier': 'stud_mychka_py_pkg'}
+[0.124559] (-) TimerEvent: {}
+[0.229565] (-) TimerEvent: {}
+[0.425578] (-) TimerEvent: {}
+[0.528365] (-) TimerEvent: {}
+[0.633915] (-) TimerEvent: {}
+[0.736435] (-) TimerEvent: {}
+[0.837961] (-) TimerEvent: {}
+[0.946102] (-) TimerEvent: {}
+[1.047600] (-) TimerEvent: {}
+[1.152578] (-) TimerEvent: {}
+[1.253286] (-) TimerEvent: {}
+[1.354547] (-) TimerEvent: {}
+[1.457557] (-) TimerEvent: {}
+[1.568803] (-) TimerEvent: {}
+[1.671127] (-) TimerEvent: {}
+[1.777383] (-) TimerEvent: {}
+[1.879549] (-) TimerEvent: {}
+[1.980650] (-) TimerEvent: {}
+[2.086109] (-) TimerEvent: {}
+[2.192745] (-) TimerEvent: {}
+[2.297861] (-) TimerEvent: {}
+[2.406566] (-) TimerEvent: {}
+[2.507650] (-) TimerEvent: {}
+[2.610243] (-) TimerEvent: {}
+[2.714357] (-) TimerEvent: {}
+[2.819825] (-) TimerEvent: {}
+[2.933642] (-) TimerEvent: {}
+[3.034388] (-) TimerEvent: {}
+[3.135294] (-) TimerEvent: {}
+[3.236367] (-) TimerEvent: {}
+[3.338558] (-) TimerEvent: {}
+[3.465744] (-) TimerEvent: {}
+[3.584016] (-) TimerEvent: {}
+[3.662539] (stud_mychka_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/stud_mychka_py_pkg', 'build', '--build-base', '/home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/build', 'install', '--record', '/home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/install.log', '--install-scripts', '$base/lib/stud_mychka_py_pkg', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ros/ros2_stud_mychka_ws/src/stud_mychka_py_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2274-6-ros-VirtualBox_TIME109472105', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ros', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ros', 'OLDPWD': '/home/ros', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1851', 'SYSTEMD_EXEC_PID': '2274', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '14112', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/ros/ros2_stud_mychka_ws/install:/home/ros/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ros', 'JOURNAL_STREAM': '10:12130', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ros', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ros-VirtualBox:@/tmp/.ICE-unix/2244,unix/ros-VirtualBox:/tmp/.ICE-unix/2244', 'INVOCATION_ID': '27711310e1254cd596916e681a693892', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:c3d00724-0367-48e6-9217-67d128f1ee7c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.684913] (-) TimerEvent: {}
+[3.787258] (-) TimerEvent: {}
+[3.922949] (-) TimerEvent: {}
+[4.039364] (-) TimerEvent: {}
+[4.111821] (stud_mychka_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.112335] (stud_mychka_py_pkg) StdoutLine: {'line': b'creating ../../build/stud_mychka_py_pkg/stud_mychka_py_pkg.egg-info\n'}
+[4.134587] (stud_mychka_py_pkg) StdoutLine: {'line': b'writing ../../build/stud_mychka_py_pkg/stud_mychka_py_pkg.egg-info/PKG-INFO\n'}
+[4.134803] (stud_mychka_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/stud_mychka_py_pkg/stud_mychka_py_pkg.egg-info/dependency_links.txt\n'}
+[4.134900] (stud_mychka_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/stud_mychka_py_pkg/stud_mychka_py_pkg.egg-info/entry_points.txt\n'}
+[4.134972] (stud_mychka_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/stud_mychka_py_pkg/stud_mychka_py_pkg.egg-info/requires.txt\n'}
+[4.135177] (stud_mychka_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/stud_mychka_py_pkg/stud_mychka_py_pkg.egg-info/top_level.txt\n'}
+[4.136244] (stud_mychka_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/stud_mychka_py_pkg/stud_mychka_py_pkg.egg-info/SOURCES.txt'\n"}
+[4.140042] (-) TimerEvent: {}
+[4.194750] (stud_mychka_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/stud_mychka_py_pkg/stud_mychka_py_pkg.egg-info/SOURCES.txt'\n"}
+[4.195008] (stud_mychka_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/stud_mychka_py_pkg/stud_mychka_py_pkg.egg-info/SOURCES.txt'\n"}
+[4.195075] (stud_mychka_py_pkg) StdoutLine: {'line': b'running build\n'}
+[4.195734] (stud_mychka_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[4.195833] (stud_mychka_py_pkg) StdoutLine: {'line': b'creating /home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/build\n'}
+[4.195957] (stud_mychka_py_pkg) StdoutLine: {'line': b'creating /home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/build/lib\n'}
+[4.198586] (stud_mychka_py_pkg) StdoutLine: {'line': b'creating /home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/build/lib/stud_mychka_py_pkg\n'}
+[4.198808] (stud_mychka_py_pkg) StdoutLine: {'line': b'copying stud_mychka_py_pkg/__init__.py -> /home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/build/lib/stud_mychka_py_pkg\n'}
+[4.198900] (stud_mychka_py_pkg) StdoutLine: {'line': b'copying stud_mychka_py_pkg/student_subscriber.py -> /home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/build/lib/stud_mychka_py_pkg\n'}
+[4.198975] (stud_mychka_py_pkg) StdoutLine: {'line': b'running install\n'}
+[4.209762] (stud_mychka_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[4.247240] (-) TimerEvent: {}
+[4.263244] (stud_mychka_py_pkg) StdoutLine: {'line': b'creating /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/lib/python3.12/site-packages/stud_mychka_py_pkg\n'}
+[4.265738] (stud_mychka_py_pkg) StdoutLine: {'line': b'copying /home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/build/lib/stud_mychka_py_pkg/__init__.py -> /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/lib/python3.12/site-packages/stud_mychka_py_pkg\n'}
+[4.265974] (stud_mychka_py_pkg) StdoutLine: {'line': b'copying /home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/build/lib/stud_mychka_py_pkg/student_subscriber.py -> /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/lib/python3.12/site-packages/stud_mychka_py_pkg\n'}
+[4.271668] (stud_mychka_py_pkg) StdoutLine: {'line': b'byte-compiling /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/lib/python3.12/site-packages/stud_mychka_py_pkg/__init__.py to __init__.cpython-312.pyc\n'}
+[4.274642] (stud_mychka_py_pkg) StdoutLine: {'line': b'byte-compiling /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/lib/python3.12/site-packages/stud_mychka_py_pkg/student_subscriber.py to student_subscriber.cpython-312.pyc\n'}
+[4.274770] (stud_mychka_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[4.274825] (stud_mychka_py_pkg) StdoutLine: {'line': b'creating /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/share/ament_index\n'}
+[4.278999] (stud_mychka_py_pkg) StdoutLine: {'line': b'creating /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/share/ament_index/resource_index\n'}
+[4.280915] (stud_mychka_py_pkg) StdoutLine: {'line': b'creating /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/share/ament_index/resource_index/packages\n'}
+[4.281424] (stud_mychka_py_pkg) StdoutLine: {'line': b'copying resource/stud_mychka_py_pkg -> /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/share/ament_index/resource_index/packages\n'}
+[4.281762] (stud_mychka_py_pkg) StdoutLine: {'line': b'copying package.xml -> /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/share/stud_mychka_py_pkg\n'}
+[4.282073] (stud_mychka_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.312458] (stud_mychka_py_pkg) StdoutLine: {'line': b'Copying ../../build/stud_mychka_py_pkg/stud_mychka_py_pkg.egg-info to /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/lib/python3.12/site-packages/stud_mychka_py_pkg-0.0.0-py3.12.egg-info\n'}
+[4.323981] (stud_mychka_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[4.347673] (-) TimerEvent: {}
+[4.448643] (-) TimerEvent: {}
+[4.499349] (stud_mychka_py_pkg) StdoutLine: {'line': b'Installing stud_mychka_subscriber script to /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/lib/stud_mychka_py_pkg\n'}
+[4.500166] (stud_mychka_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/install.log'\n"}
+[4.549648] (-) TimerEvent: {}
+[4.575171] (stud_mychka_py_pkg) CommandEnded: {'returncode': 0}
+[4.625765] (stud_mychka_py_pkg) JobEnded: {'identifier': 'stud_mychka_py_pkg', 'rc': 0}
+[4.630668] (-) EventReactorShutdown: {}

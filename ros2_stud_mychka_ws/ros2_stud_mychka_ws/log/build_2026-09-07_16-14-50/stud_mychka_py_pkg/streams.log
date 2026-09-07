@@ -1,0 +1,20 @@
+[3.504s] Invoking command in '/home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/build --no-deps symlink_data --force
+[3.936s] running develop
+[4.188s] running egg_info
+[4.206s] writing stud_mychka_py_pkg.egg-info/PKG-INFO
+[4.206s] writing dependency_links to stud_mychka_py_pkg.egg-info/dependency_links.txt
+[4.207s] writing entry points to stud_mychka_py_pkg.egg-info/entry_points.txt
+[4.208s] writing requirements to stud_mychka_py_pkg.egg-info/requires.txt
+[4.208s] writing top-level names to stud_mychka_py_pkg.egg-info/top_level.txt
+[4.254s] reading manifest file 'stud_mychka_py_pkg.egg-info/SOURCES.txt'
+[4.254s] writing manifest file 'stud_mychka_py_pkg.egg-info/SOURCES.txt'
+[4.284s] running build_ext
+[4.288s] Creating /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/lib/python3.12/site-packages/stud-mychka-py-pkg.egg-link (link to .)
+[4.289s] Installing stud_mychka_subscriber script to /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/lib/stud_mychka_py_pkg
+[4.290s] Installing stud_mychka_temperature_monitor script to /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/lib/stud_mychka_py_pkg
+[4.290s] 
+[4.290s] Installed /home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg
+[4.290s] running symlink_data
+[4.290s] symbolically linking /home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/resource/stud_mychka_py_pkg -> /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/share/ament_index/resource_index/packages
+[4.291s] symbolically linking /home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/package.xml -> /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/share/stud_mychka_py_pkg
+[4.335s] Invoked command in '/home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/build --no-deps symlink_data --force

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-80cc9defb2a6da5d3d19.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "stud_mychka_cpp_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "stud_mychka_cpp_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stud_mychka_cpp_pkg_uninstall-6590ea25f3a3540bbeb0.json",
+					"name" : "stud_mychka_cpp_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stud_mychka_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stud_mychka_publisher-f0fddeaf514c1b18c5f8.json",
+					"name" : "stud_mychka_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-29c4ee3fc1033e9882ea.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg",
+		"source" : "/home/ros/ros2_stud_mychka_ws/src/stud_mychka_cpp_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

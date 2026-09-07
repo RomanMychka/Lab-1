@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing stud_mychka_py_pkg.egg-info/PKG-INFO
+writing dependency_links to stud_mychka_py_pkg.egg-info/dependency_links.txt
+writing entry points to stud_mychka_py_pkg.egg-info/entry_points.txt
+writing requirements to stud_mychka_py_pkg.egg-info/requires.txt
+writing top-level names to stud_mychka_py_pkg.egg-info/top_level.txt
+reading manifest file 'stud_mychka_py_pkg.egg-info/SOURCES.txt'
+writing manifest file 'stud_mychka_py_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/lib/python3.12/site-packages/stud-mychka-py-pkg.egg-link (link to .)
+Installing stud_mychka_subscriber script to /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/lib/stud_mychka_py_pkg
+Installing stud_mychka_temperature_monitor script to /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/lib/stud_mychka_py_pkg
+
+Installed /home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg
+running symlink_data
+symbolically linking /home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/resource/stud_mychka_py_pkg -> /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/ros/ros2_stud_mychka_ws/build/stud_mychka_py_pkg/package.xml -> /home/ros/ros2_stud_mychka_ws/install/stud_mychka_py_pkg/share/stud_mychka_py_pkg

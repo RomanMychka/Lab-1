@@ -1,0 +1,131 @@
+[0.000000] (-) TimerEvent: {}
+[0.000981] (-) JobUnselected: {'identifier': 'stud_mychka_py_pkg'}
+[0.001135] (stud_mychka_cpp_pkg) JobQueued: {'identifier': 'stud_mychka_cpp_pkg', 'dependencies': OrderedDict()}
+[0.001168] (stud_mychka_cpp_pkg) JobStarted: {'identifier': 'stud_mychka_cpp_pkg'}
+[0.072069] (stud_mychka_cpp_pkg) JobProgress: {'identifier': 'stud_mychka_cpp_pkg', 'progress': 'cmake'}
+[0.075157] (stud_mychka_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/ros/ros2_stud_mychka_ws/src/stud_mychka_cpp_pkg', '-DCMAKE_INSTALL_PREFIX=/home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg'], 'cwd': '/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2274-2-ros-VirtualBox_TIME43728036', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ros', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ros', 'OLDPWD': '/home/ros/ros2_stud_mychka_ws/src/stud_mychka_cpp_pkg', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1851', 'SYSTEMD_EXEC_PID': '2274', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5088', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/ros/ros2_stud_mychka_ws/install:/home/ros/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ros', 'JOURNAL_STREAM': '10:12130', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ros', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ros-VirtualBox:@/tmp/.ICE-unix/2244,unix/ros-VirtualBox:/tmp/.ICE-unix/2244', 'INVOCATION_ID': '27711310e1254cd596916e681a693892', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:fc3fa5af-d5bf-4db1-944d-0ee4fed467a4', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.095932] (-) TimerEvent: {}
+[0.203376] (-) TimerEvent: {}
+[0.312619] (-) TimerEvent: {}
+[0.433746] (-) TimerEvent: {}
+[0.549634] (-) TimerEvent: {}
+[0.652077] (-) TimerEvent: {}
+[0.760385] (-) TimerEvent: {}
+[0.876188] (-) TimerEvent: {}
+[0.983193] (-) TimerEvent: {}
+[1.060817] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.084287] (-) TimerEvent: {}
+[1.229754] (-) TimerEvent: {}
+[1.342829] (-) TimerEvent: {}
+[1.454604] (-) TimerEvent: {}
+[1.557833] (-) TimerEvent: {}
+[1.659759] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.660708] (-) TimerEvent: {}
+[1.763301] (-) TimerEvent: {}
+[1.868055] (-) TimerEvent: {}
+[1.915311] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.969288] (-) TimerEvent: {}
+[2.072015] (-) TimerEvent: {}
+[2.172971] (-) TimerEvent: {}
+[2.274197] (-) TimerEvent: {}
+[2.387115] (-) TimerEvent: {}
+[2.488992] (-) TimerEvent: {}
+[2.595635] (-) TimerEvent: {}
+[2.665589] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.681864] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.693705] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.700304] (-) TimerEvent: {}
+[2.705173] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.765081] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.801481] (-) TimerEvent: {}
+[2.910215] (-) TimerEvent: {}
+[3.011007] (-) TimerEvent: {}
+[3.113992] (-) TimerEvent: {}
+[3.224969] (-) TimerEvent: {}
+[3.301537] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.325478] (-) TimerEvent: {}
+[3.336004] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.337849] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.340735] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.427868] (-) TimerEvent: {}
+[3.526850] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[3.528099] (-) TimerEvent: {}
+[3.628726] (-) TimerEvent: {}
+[3.730102] (-) TimerEvent: {}
+[3.833850] (-) TimerEvent: {}
+[3.948669] (-) TimerEvent: {}
+[4.052886] (-) TimerEvent: {}
+[4.159859] (-) TimerEvent: {}
+[4.226100] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[4.262135] (-) TimerEvent: {}
+[4.419031] (-) TimerEvent: {}
+[4.561782] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[4.564065] (-) TimerEvent: {}
+[4.706921] (-) TimerEvent: {}
+[4.780251] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[4.810972] (-) TimerEvent: {}
+[4.848520] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[4.919348] (-) TimerEvent: {}
+[4.951994] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.021759] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.023293] (-) TimerEvent: {}
+[5.124563] (-) TimerEvent: {}
+[5.235684] (-) TimerEvent: {}
+[5.338306] (-) TimerEvent: {}
+[5.363243] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[5.383103] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.439910] (-) TimerEvent: {}
+[5.543301] (-) TimerEvent: {}
+[5.645145] (-) TimerEvent: {}
+[5.747741] (-) TimerEvent: {}
+[5.772002] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[5.826594] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[5.858686] (-) TimerEvent: {}
+[5.874136] (stud_mychka_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.973879] (-) TimerEvent: {}
+[6.137415] (-) TimerEvent: {}
+[6.184013] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[6.242900] (-) TimerEvent: {}
+[6.255746] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[6.344891] (-) TimerEvent: {}
+[6.448323] (-) TimerEvent: {}
+[6.552681] (-) TimerEvent: {}
+[6.633337] (stud_mychka_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.634409] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[6.635992] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.642937] (stud_mychka_cpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.646716] (stud_mychka_cpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.646930] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.650480] (stud_mychka_cpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.655611] (-) TimerEvent: {}
+[6.664057] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Configuring done (6.3s)\n'}
+[6.684767] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[6.688101] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg\n'}
+[6.707931] (stud_mychka_cpp_pkg) CommandEnded: {'returncode': 0}
+[6.709425] (stud_mychka_cpp_pkg) JobProgress: {'identifier': 'stud_mychka_cpp_pkg', 'progress': 'build'}
+[6.709476] (stud_mychka_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg', '--', '-j6', '-l6'], 'cwd': '/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2274-2-ros-VirtualBox_TIME43728036', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ros', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ros', 'OLDPWD': '/home/ros/ros2_stud_mychka_ws/src/stud_mychka_cpp_pkg', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1851', 'SYSTEMD_EXEC_PID': '2274', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5088', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/ros/ros2_stud_mychka_ws/install:/home/ros/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ros', 'JOURNAL_STREAM': '10:12130', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ros', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ros-VirtualBox:@/tmp/.ICE-unix/2244,unix/ros-VirtualBox:/tmp/.ICE-unix/2244', 'INVOCATION_ID': '27711310e1254cd596916e681a693892', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:fc3fa5af-d5bf-4db1-944d-0ee4fed467a4', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[6.755824] (-) TimerEvent: {}
+[6.809208] (stud_mychka_cpp_pkg) CommandEnded: {'returncode': 0}
+[6.811148] (stud_mychka_cpp_pkg) JobProgress: {'identifier': 'stud_mychka_cpp_pkg', 'progress': 'install'}
+[6.838280] (stud_mychka_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg'], 'cwd': '/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2274-2-ros-VirtualBox_TIME43728036', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ros', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ros', 'OLDPWD': '/home/ros/ros2_stud_mychka_ws/src/stud_mychka_cpp_pkg', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1851', 'SYSTEMD_EXEC_PID': '2274', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5088', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/ros/ros2_stud_mychka_ws/install:/home/ros/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ros', 'JOURNAL_STREAM': '10:12130', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ros', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ros-VirtualBox:@/tmp/.ICE-unix/2244,unix/ros-VirtualBox:/tmp/.ICE-unix/2244', 'INVOCATION_ID': '27711310e1254cd596916e681a693892', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:fc3fa5af-d5bf-4db1-944d-0ee4fed467a4', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ros/ros2_stud_mychka_ws/build/stud_mychka_cpp_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[6.856908] (-) TimerEvent: {}
+[6.868018] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.868236] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/stud_mychka_cpp_pkg\n'}
+[6.868325] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/stud_mychka_cpp_pkg\n'}
+[6.874792] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[6.875008] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[6.875077] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/environment/path.sh\n'}
+[6.875139] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/environment/path.dsv\n'}
+[6.875196] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/local_setup.bash\n'}
+[6.875248] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/local_setup.sh\n'}
+[6.875301] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/local_setup.zsh\n'}
+[6.881454] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/local_setup.dsv\n'}
+[6.882793] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/package.dsv\n'}
+[6.882961] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/ament_index/resource_index/packages/stud_mychka_cpp_pkg\n'}
+[6.883032] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/cmake/stud_mychka_cpp_pkgConfig.cmake\n'}
+[6.885197] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/cmake/stud_mychka_cpp_pkgConfig-version.cmake\n'}
+[6.886702] (stud_mychka_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_stud_mychka_ws/install/stud_mychka_cpp_pkg/share/stud_mychka_cpp_pkg/package.xml\n'}
+[6.889331] (stud_mychka_cpp_pkg) CommandEnded: {'returncode': 0}
+[6.957628] (-) TimerEvent: {}
+[6.980780] (stud_mychka_cpp_pkg) JobEnded: {'identifier': 'stud_mychka_cpp_pkg', 'rc': 0}
+[6.982072] (-) EventReactorShutdown: {}
